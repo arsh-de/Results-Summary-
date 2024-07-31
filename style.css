@@ -30,8 +30,10 @@
 }
 
 body {
-    background: var(--Pale-blue);
     font-family: "Hanken Grotesk";
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
@@ -44,6 +46,7 @@ body {
     border-radius: 1.5rem;
     margin: 5rem auto;
     width: 50%;
+    box-shadow: 3px 3px 3px var(--Pale-blue);
 }
 
 .result {
